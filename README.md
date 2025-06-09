@@ -27,7 +27,7 @@ Une implémentation du jeu classique Démineur, développée avec React, TypeScr
 
 1.  Clonez ce dépôt sur votre machine locale :
     ```bash
-    git clone https://github.com/votre-nom/demineur_react.git
+    git clone https://github.com/creasitenet/demineur_react.git
     cd demineur_react
     ```
 
