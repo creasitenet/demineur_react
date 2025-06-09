@@ -16,7 +16,6 @@ Une implémentation du jeu classique Démineur, développée avec React, TypeScr
 
 - Interface utilisateur intuitive et réactive
 - Plusieurs niveaux de difficulté (facile, normal, avancé, impossible)
-- Effets sonores
 - Design inspiré du démineur classique de Windows
 
 ## 📋 Prérequis
@@ -24,14 +23,40 @@ Une implémentation du jeu classique Démineur, développée avec React, TypeScr
 - Node.js (version 18 ou supérieure recommandée)
 - npm ou yarn
 
-## 🔧 Installation
+## 🔧 Installation et Lancement
 
-1. Clonez ce dépôt sur votre machine locale :
+1.  Clonez ce dépôt sur votre machine locale :
+    ```bash
+    git clone https://github.com/votre-nom/demineur_react.git
+    cd demineur_react
+    ```
 
-```bash
-git clone https://github.com/votre-nom/demineur_react.git
-cd demineur_react
-```
+2.  Installez les dépendances du projet. Choisissez l'une des commandes suivantes en fonction de votre gestionnaire de paquets préféré :
+    ```bash
+    # Avec npm
+    npm install
+
+    # Ou avec yarn
+    yarn install
+    ```
+
+3.  Lancez l'application en mode développement :
+    ```bash
+    # Avec npm
+    npm run dev
+
+    # Ou avec yarn
+    yarn dev
+    ```
+    Ouvrez votre navigateur et allez sur `http://localhost:5173` (ou le port indiqué dans la console Vite, généralement 5173 par défaut).
+
+## 🛠️ Scripts disponibles
+
+-   `npm run dev` ou `yarn dev`: Lance le serveur de développement.
+-   `npm run build` ou `yarn build`: Compile l'application pour la production dans le dossier `dist/`.
+-   `npm run lint` ou `yarn lint`: Exécute ESLint pour analyser le code.
+-   `npm run preview` ou `yarn preview`: Lance un serveur local pour prévisualiser le build de production.
+
 
 ## Expanding the ESLint configuration
 
