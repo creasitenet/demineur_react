@@ -1,6 +1,7 @@
 # Démineur React
 
 Une implémentation du jeu classique Démineur, développée avec React, TypeScript et Vite.
+Demo : https://demineur.creasitenet.fr/
 
 ![Démineur](public/images/flag.gif) ![Mine](public/images/mine.gif) ![Explosion](public/images/exploded.gif)
 
